@@ -26,6 +26,7 @@ export default function Profile({ postData }) {
       {postData.id}
       <br />
       {postData.date}
+      <div>{postData.content}</div>
     </Layout>
   );
 }
